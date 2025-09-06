@@ -1,0 +1,5 @@
+[phases.build]
+command = "echo 'No build needed'"
+
+[phases.start]
+command = "java -jar server.jar -m Omega_Sector"
