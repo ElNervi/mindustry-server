@@ -11,4 +11,5 @@ COPY Omega.msav config/maps/
 
 EXPOSE 6567
 
-CMD ["java", "-jar", "server.jar", "-m", "Omega_Sector"]
+# Iniciar el servidor sin argumentos inválidos
+CMD ["java", "-jar", "server.jar"]
